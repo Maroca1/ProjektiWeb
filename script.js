@@ -1,26 +1,86 @@
-// var vargu = [
+function Brown(){
 
-//     'images/brand1.png',
-//     'images/brand2.png',
-//     'images/brand3.png',
-//     'images/brand4.png',
-//     'images/brand5.png',
-//     'images/brand6.png'
-// ];
+    document.getElementById("fotojaKryesore").src = 'images/jacket2.jpg';
+    document.getElementById("jacketdesc").innerHTML = "Double faced jacked Black & Brown";
+}
 
-// var index = 0;
-// const koha = 1500;
+function Black(){
 
-// function Slider(){
+    document.getElementById("fotojaKryesore").src = 'images/jacket1.jpg';
+    document.getElementById("jacketdesc").innerHTML = "Double faced jacked Black & Black";
 
-//     document.getElementById('sponsors').src = vargu[index];
-//     index++;
+}
 
-//     if(index == vargu.length){
-//         index=0;
-//     }
+function White(){
 
-//     setTimeout("Slider()",koha)
-// }
+    document.getElementById("fotojaKryesore").src = 'images/jacket3.jpg';
+    document.getElementById("jacketdesc").innerHTML = "Double faced jacked White & Cream";
+    
+}
 
-// Slider();
+
+
+function btnS(){
+
+    document.getElementById("M").style.color="black";
+    document.getElementById("M").style.backgroundColor = "white";
+
+    document.getElementById("L").style.color="black";
+    document.getElementById("L").style.backgroundColor = "white";
+
+    document.getElementById("XL").style.color="black";
+    document.getElementById("XL").style.backgroundColor = "white";
+    
+    document.getElementById("S").style.color="white";
+    document.getElementById("S").style.backgroundColor = "black";
+}
+
+function btnM(){
+
+    document.getElementById("S").style.color="black";
+    document.getElementById("S").style.backgroundColor = "white";
+
+    document.getElementById("L").style.color="black";
+    document.getElementById("L").style.backgroundColor = "white";
+
+    document.getElementById("XL").style.color="black";
+    document.getElementById("XL").style.backgroundColor = "white";
+
+    document.getElementById("M").style.color="white";
+    document.getElementById("M").style.backgroundColor = "black";
+}
+
+function btnL(){
+
+    document.getElementById("S").style.color="black";
+    document.getElementById("S").style.backgroundColor = "white";
+
+    document.getElementById("M").style.color="black";
+    document.getElementById("M").style.backgroundColor = "white";
+
+    document.getElementById("L").style.color="white";
+    document.getElementById("L").style.backgroundColor = "black";
+
+    document.getElementById("XL").style.color="black";
+    document.getElementById("XL").style.backgroundColor = "white";
+}
+
+function btnXL(){
+    document.getElementById("S").style.color="black";
+    document.getElementById("S").style.backgroundColor = "white";
+
+    document.getElementById("M").style.color="black";
+    document.getElementById("M").style.backgroundColor = "white";
+
+    document.getElementById("L").style.color="black";
+    document.getElementById("L").style.backgroundColor = "white";
+
+    document.getElementById("XL").style.color="white";
+    document.getElementById("XL").style.backgroundColor = "black";
+
+}
+
+function order(){
+
+    alert("Your order is in, Thanks for shopping at our site!");
+}

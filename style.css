@@ -34,7 +34,7 @@ header button{
 
 .container .intro{
 
-    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     margin-left: 8em;
@@ -60,6 +60,7 @@ header button{
 .container .intro a button{
 
     color: black;
+    width: 230px;
     font-weight: 400;
     font-size: 15px;
     padding: 20px 40px;
@@ -273,4 +274,203 @@ footer ul li a{
 .sponsors img{
 
     margin: 37px;
+}
+
+.dev{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-container{
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+}
+
+.product-container .product-image{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-container .product-image .main-img{
+
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin: 0.5em;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.1);
+
+} 
+
+.product-container .product-image .main-img:hover{
+
+    border-color: rgba(0, 0, 0, 0.2);
+
+
+} 
+
+
+.product-description{
+    margin-top: 5.5em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column; 
+    padding-right: 2em;
+
+}
+
+.product-description h2{
+
+    margin-bottom: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.product-description h4{
+    margin-bottom: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 27.5px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 92%;
+
+}
+
+.product-description h6{
+    margin-bottom: 30px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+}
+
+.product-description #brown{
+
+    background-color: brown;
+    padding: 12px 12px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  black;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.product-description #black{
+
+    background-color: black;
+    padding: 12px 12px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  black;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.product-description #white{
+
+    background-color: White;
+    padding: 12px 12px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  black;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+hr{
+
+    width: 92%;
+    height: 2px;
+    background-color: #404040;
+}
+
+#brown:hover{
+
+    cursor: pointer;
+}
+#black:hover{
+
+    cursor: pointer;
+}
+#white:hover{
+
+    cursor: pointer;
+}
+
+.size-btn{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.size-btn button{
+
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 53.5px;
+    margin-top: 30px;
+    border-style: none;
+    letter-spacing: 2px;
+    margin-right: 12px;
+}
+
+.size-btn button:hover{
+
+    transition: 0.5s;
+    color: white;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.ordbtn{
+
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-style: none;
+    letter-spacing: 4px;
+    margin-right: 10px;
+    background-color: #222222;
+    width: 92%;
+}
+
+.ordbtn:hover{
+
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
