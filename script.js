@@ -83,4 +83,5 @@ function btnXL(){
 function order(){
 
     alert("Your order is in, Thanks for shopping at our site!");
+    location.href = "index.html";
 }
