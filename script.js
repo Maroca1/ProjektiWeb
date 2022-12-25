@@ -85,3 +85,38 @@ function order(){
     alert("Your order is in, Thanks for shopping at our site!");
     location.href = "index.html";
 }
+
+const fname = document.getElementById("fname");
+const lname = document.getElementById("lname");
+const email = document.getElementById("email");
+const submit= document.getElementById("submit");
+const form= document.getElementById("form");
+const error = document.getElementById("error");
+
+form.addEventListener("submit", (e)=>{
+    let messages = [];
+    if(fname.value.trim() === '' || fname.value == null){
+        messages.push('Firstname is required');
+    }
+
+    if(lname.value.trim() === '' || lname.value == null){
+        messages.push('Lastname is required');
+    }
+
+    if(!email.value.includes('@') || !email.value.endsWith('.com') || !email.value.endsWith('.net') || !email.value.endsWith('.org')){
+        messages.push("This isn't a valid email");
+    }
+
+    if(messages.length > 0){
+        e.preventDefault();
+        error.innerText = messages.join(', ');
+    }
+    
+
+})
+
+
+console.log(fname);
+console.log(lname);
+console.log(email);
+console.log(form);
